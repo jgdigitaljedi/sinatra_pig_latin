@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pig Latin Translator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+      <!-- body goes here -->
+      <div class="wrapper">
+	      <div id="io_area">
+					<label for="word">Enter your word for translation:</label>
+	    		<form method="post" action="/">
+	    			<div class="io_form">
+		    			<input type="text" name="word">
+		    			<input type="submit" value="Translate!">
+		    		</div>
+	    		</form>	
+	    		<% if @word %>
+	    			<h3><p class="accent"><%= @word %></p> translated into pig latin is <p class="accent"><%= @result %></p>!</h3>
+	    		<% end %>
+	    	</div>
+    	</div>
+    </body>
+</html>

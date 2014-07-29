@@ -1,0 +1,38 @@
+html {
+	background: url('./pig_bg.jpg');
+	background-size: cover;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#io_area {
+	text-align: center;
+	width: 100%;
+	/*max-width: 64em;*/
+	height: 150px;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+	border-radius: 8px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.5)
+}
+
+.io_form {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 36em;
+	margin: 0 auto;
+}
+
+.accent {
+
+	display: inline;
+	color: orange;
+	font-weight: bold;
+}

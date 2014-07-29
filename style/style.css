@@ -1,0 +1,11 @@
+html {
+
+}
+
+#io_area {
+	width: 90%;
+	max-width: 64em;
+	display: inline-block;
+	float: left;
+	background: rgba(0, 0, 0, 0.3)
+}
